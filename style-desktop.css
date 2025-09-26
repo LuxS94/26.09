@@ -1,0 +1,106 @@
+body {
+  width: 100%;
+}
+header div p,
+main div p,
+main p {
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  color: #393d41;
+}
+#logo {
+  width: 100%;
+  background-color: black;
+  padding: 25px;
+}
+#logo img {
+  width: 15%;
+}
+#ht,
+footer {
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+  color: #25a2c3;
+}
+#ht {
+  background-image: url(./assets/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 150px;
+  margin-bottom: 10%;
+}
+#ht input {
+  background-color: orangered;
+  color: white;
+  font-family: "Montserrat (bold)";
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+}
+#inl {
+  float: right;
+  display: block;
+  margin-left: 5px;
+}
+#notebook,
+#notebook img {
+  display: inline-block;
+}
+#notebook img {
+  border-radius: 1000px;
+}
+#notebook {
+  margin-left: 6%;
+}
+#arancio {
+  text-align: center;
+  display: block;
+  background-color: orangered;
+  padding: 5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+#arancio h1,
+#arancio p,
+#arancio cite {
+  color: white;
+}
+.icon div {
+  display: inline-block;
+  text-align: center;
+  margin-right: 170px;
+  margin-left: 10px;
+  width: 100%;
+}
+/* #pc,#impara,#lavora */
+#pc,
+#impara,
+#lavora {
+  width: 20vw;
+}
+#pc img,
+#impara img,
+#lavora img {
+  width: 20vw;
+}
+
+#contattaci {
+  background-color: #25a2c3;
+}
+
+#contattaci h2,
+#contattaci p,
+#contattaci a,
+#contattaci i {
+  color: white;
+}
